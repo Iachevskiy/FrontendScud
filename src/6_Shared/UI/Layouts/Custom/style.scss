@@ -1,0 +1,10 @@
+.custom-layout {
+  background: $color-gray-40;
+  max-width: 700px;
+  margin: auto;
+  height: 100vh;
+
+  &__icon {
+    font-size: 24px
+  }
+}

@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+// @ts-ignore
 export default defineNuxtConfig({
   css: ['@/src/1_App/Styles/Main.scss'],
   vite: {
@@ -16,5 +17,6 @@ export default defineNuxtConfig({
   },
   typescript: {
     typeCheck: true
-  }
+  },
+  modules: ['nuxt-icons']
 });
