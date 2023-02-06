@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
+    "lintFix": "eslint --ext .js,.vue --ignore-path .eslintignore .  --fix"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-airbnb": "^7.0.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.33.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+
+  }
+}
