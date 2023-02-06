@@ -1,8 +1,10 @@
 <template>
-  <div
-    id="kk"
-    class="ll"
-  >
+  <div>
     <NuxtWelcome />
   </div>
 </template>
+
+<script setup lang="ts">
+import ff from '@/src/6_Shared';
+
+</script>
