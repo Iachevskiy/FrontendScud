@@ -18,5 +18,15 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true
   },
-  modules: ['nuxt-icons']
+  modules: [
+    'nuxt-icons',
+    '@nuxtjs/apollo'
+  ],
+  apollo: {
+    clients: {
+      default: {
+        httpEndpoint: 'https://api.spacex.land/graphql'
+      }
+    }
+  }
 });
