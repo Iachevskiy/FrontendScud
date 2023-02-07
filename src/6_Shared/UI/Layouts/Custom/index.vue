@@ -1,11 +1,11 @@
 <template>
   <div class="custom-layout">
-    custom layout
-    <nuxt-icon
-      name="logo"
-      class="custom-layout__icon"
-    />
-    <slot />
+    <header class="custom-layout__header">
+      <slot name="header" />
+    </header>
+    <main class="custom-layout__content">
+      <slot />
+    </main>
   </div>
 </template>
 

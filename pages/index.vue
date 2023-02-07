@@ -1,11 +1,13 @@
 <template>
-  <div>
-    {{ ff() }} 44 5567
-  </div>
+  <UiFilterBar />
+  <UiWidget />
+  <UiWidget />
 </template>
 
 <script setup lang="ts">
-import ff from '@/src/6_Shared';
+import { UiFilterBar } from '@/src/3_Widgets/FilterBar';
+import { UiWidget } from '@/src/3_Widgets/Widget';
+import { definePageMeta } from '#imports';
 
 definePageMeta({
   layout: 'custom'

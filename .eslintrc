@@ -70,7 +70,7 @@
       }
     ],
     // Проверка регистра для стиля именования компонентов в шаблоне
-    "vue/component-name-in-template-casing": ["error", "kebab-case", {
+    "vue/component-name-in-template-casing": ["error", "PascalCase", {
       "registeredComponentsOnly": true
     }],
     // Проверка нерегулярных пробелов
